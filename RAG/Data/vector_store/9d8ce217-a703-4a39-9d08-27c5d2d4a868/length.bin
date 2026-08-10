@@ -1,0 +1,21 @@
+plt.show() 
+ 
+plt.pie(sizes,  
+ labels=labels,  
+ autopct='%1.1f%%') # shows percentage  
+ 
+plt.show() 
+ 
+colors = ['skyblue', 'lightgreen', 'pink', 'orange']  
+ 
+plt.pie(sizes, labels=labels, autopct='%1.1f%%', colors=colors)  
+plt.show() 
+ 
+plt.pie(sizes,  
+ labels=labels,  
+ autopct='%1.1f%%',  
+ startangle=90,  # rotate chart  
+ shadow=True)  # adds shadow  
+ 
+plt.show() 
+mayankchouhan263@gmai
