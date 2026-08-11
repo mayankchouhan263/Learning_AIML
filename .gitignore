@@ -6,3 +6,6 @@ venv/
 .pt
 Cleaned_data/Image_Classification_dataset/
 *.tar.gz
+.pdf 
+.pickle
+.sqlite3
